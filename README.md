@@ -49,6 +49,11 @@ python setup.py install
 
 ```
                 
+### Preprocess
 
+1. Use `scale.py` to scale up the orginal images to (D, 1024, 1024)
+2. Use `utils/preprocess.py` to preprocess the converted data.
+
+   
 
 
