@@ -49,11 +49,19 @@ python setup.py install
 
 ```
                 
-### Preprocess
+#### Preprocess
 
 1. Use `scale.py` to scale up the orginal images (some original shpae is (D, 512, 512)) to (D, 1024, 1024)
 2. Use `utils/preprocess.py` to preprocess the converted data.
 
+#### Train
+Change training configuration and data configuration in `config.py`, especially the path to your preprocessed data.
+
+You can change network configuration in `net/config.py`, then run training script:
+
+```
+python train.py
+```
    
 
 
