@@ -67,7 +67,6 @@ python train.py
 
 ```
 python mytest.py test --weight $PATH_TO_WEIGHT --nrrd-path $DICOM_PATH --out-dir $OUTPUT_DIR
-
 ```
 
 Can only process one image at a time.
