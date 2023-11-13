@@ -47,6 +47,7 @@ python setup.py install
                     |-- <name of the second mask (no index needed)>.nrrd
                     |-- ......
         |-- preprocessed
+    |-- src
 
 ```
                 
