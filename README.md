@@ -65,7 +65,7 @@ You can change network configuration in `net/config.py`, then run training scrip
 python train.py
 ```
 
-Your ckpt will be saved in `results/experiment_x`. You can change it in the `config.py`.
+Your ckpt will be saved in `results/experiment_5/model`. You can change it in the `config.py`.
 
 For training, using Adam optimizer, lr = 0.001, batch size = 1, epoch = 100
 #### Inference
@@ -76,4 +76,15 @@ python mytest.py test --weight $PATH_TO_WEIGHT --nrrd-path $DICOM_PATH --out-dir
 
 Can only inference one image at a time.
 
+PATH_TO_WEIGHT:
+```
+
+|-- UaNet_OAR
+    |-- src
+        |-- results
+            |-- experiment_5
+                |-- model
+                    |-- 094.ckpt
+
+```
 
