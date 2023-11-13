@@ -23,7 +23,7 @@ docker pull qiyi007/uanet:2.0
 conda activate UaNet
 ```
 #### Install dependencies
-Please make sure your working directory is src/
+Please make sure your working directory is src
 
 ```
 cd src
