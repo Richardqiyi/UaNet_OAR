@@ -78,7 +78,6 @@ Can only inference one image at a time.
 
 PATH_TO_WEIGHT:
 ```
-
 |-- UaNet_OAR
     |-- src
         |-- results
