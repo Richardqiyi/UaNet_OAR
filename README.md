@@ -43,7 +43,8 @@ python setup.py install
             |-- case_01
                 |-- img.nrrd (your image)
                 |-- structures
-                    |-- <organ at risk>.nrrd
+                    |-- <name of the first mask (no index needed)>.nrrd
+                    |-- <name of the second mask (no index needed)>.nrrd
                     |-- ......
         |-- preprocessed
 
