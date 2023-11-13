@@ -74,6 +74,6 @@ For training, using Adam optimizer, lr = 0.001, batch size = 1, epoch = 100
 python mytest.py test --weight $PATH_TO_WEIGHT --nrrd-path $DICOM_PATH --out-dir $OUTPUT_DIR
 ```
 
-Can only process one image at a time.
+Can only inference one image at a time.
 
 
