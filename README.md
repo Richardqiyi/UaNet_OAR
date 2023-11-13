@@ -74,6 +74,8 @@ Your ckpt will be saved in `results/experiment_5/model`. You can change it in th
 For training, using Adam optimizer, lr = 0.001, batch size = 1, epoch = 100
 #### Inference
 
+For checkpoint, see [UaNet_HaN-Seg_bs1_epoch100](https://github.com/Richardqiyi/UaNet_OAR/releases/tag/UaNet_HaN-Seg_bs1_epoch100)
+
 ```
 python mytest.py test --weight $PATH_TO_WEIGHT --nrrd-path $DICOM_PATH --out-dir $OUTPUT_DIR
 ```
