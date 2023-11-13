@@ -48,6 +48,10 @@ python setup.py install
                     |-- ......
         |-- preprocessed
     |-- src
+        |-- results
+            |-- <experiment name>
+                |-- model
+                    |-- <checkpoint name>.ckpt
 
 ```
                 
@@ -75,15 +79,3 @@ python mytest.py test --weight $PATH_TO_WEIGHT --nrrd-path $DICOM_PATH --out-dir
 ```
 
 Can only inference one image at a time.
-
-PATH_TO_WEIGHT:
-```
-|-- UaNet_OAR
-    |-- src
-        |-- results
-            |-- experiment_5
-                |-- model
-                    |-- 094.ckpt
-
-```
-
