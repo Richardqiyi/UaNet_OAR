@@ -11,7 +11,7 @@ Python = 3.7, Pytorch = 1.8.0, Torchvision = 1.9.0, CUDA = 11.1
 
 #### GPU
 
-NVIDIA GeForce RTX 3090(24 GB memory)
+1 NVIDIA GeForce RTX 3090 24G
 
 #### Docker
 
