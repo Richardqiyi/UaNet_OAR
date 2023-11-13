@@ -53,7 +53,7 @@ python setup.py install
                 
 #### Preprocess
 
-1. Use `scale.py` to scale up the orginal images (some original shape is (D, 512, 512)) to (D, 1024, 1024)
+1. Use `scale.py` to scale up the orginal images (some original shape (D, W, H) is (D, 512, 512)) to (D, 1024, 1024)
 2. Use `utils/preprocess.py` to preprocess the converted data.
 
 #### Train
@@ -65,7 +65,8 @@ You can change network configuration in `net/config.py`, then run training scrip
 python train.py
 ```
 
-#### Test
+Your ckpt will be saved in `results/experiment_x`. You can change it in the `config.py`.
+#### Inference
 
 ```
 python mytest.py test --weight $PATH_TO_WEIGHT --nrrd-path $DICOM_PATH --out-dir $OUTPUT_DIR
