@@ -66,6 +66,8 @@ python train.py
 ```
 
 Your ckpt will be saved in `results/experiment_x`. You can change it in the `config.py`.
+
+For training, using Adam optimizer, lr = 0.001, batch size = 1, epoch = 100
 #### Inference
 
 ```
